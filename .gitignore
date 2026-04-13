@@ -1,0 +1,24 @@
+# Drupal
+web/sites/default/files/
+web/sites/default/settings.local.php
+web/sites/php_errors.log
+
+# Vendor (régénéré par composer install)
+vendor/
+
+# Composer
+composer.phar
+
+# Lando
+.lando.local.yml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Ne PAS ignorer config/sync !
+# config/sync/ ← NE PAS AJOUTER
