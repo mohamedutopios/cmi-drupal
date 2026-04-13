@@ -1,0 +1,18 @@
+uuid: fa5156ff-baa8-4bfa-a7b9-0452a110c7f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.livre
+id: node.livre.title
+field_name: title
+entity_type: node
+bundle: livre
+label: livre
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

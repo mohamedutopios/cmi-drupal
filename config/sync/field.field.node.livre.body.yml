@@ -1,0 +1,24 @@
+uuid: 619f0c9f-4566-46f3-8676-44d1370fc529
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.livre
+  module:
+    - text
+id: node.livre.body
+field_name: body
+entity_type: node
+bundle: livre
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

@@ -1,0 +1,19 @@
+uuid: df766fc3-3639-4bef-86f6-9f456410ee33
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_resume
+    - node.type.livre
+id: node.livre.field_resume
+field_name: field_resume
+entity_type: node
+bundle: livre
+label: Résumé
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

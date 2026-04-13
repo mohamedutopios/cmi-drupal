@@ -1,0 +1,38 @@
+uuid: 21401eb5-2a03-447b-96d2-c63594628494
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.livre.body
+    - field.field.node.livre.field_annee_de_publication
+    - field.field.node.livre.field_auteur
+    - field.field.node.livre.field_isbn
+    - field.field.node.livre.field_resume
+    - node.type.livre
+  module:
+    - text
+    - user
+id: node.livre.teaser
+targetEntityType: node
+bundle: livre
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_annee_de_publication: true
+  field_auteur: true
+  field_isbn: true
+  field_resume: true
